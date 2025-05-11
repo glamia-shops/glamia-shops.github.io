@@ -1,4 +1,4 @@
-const stripe = Stripe("YOUR_PUBLIC_STRIPE_KEY");
+const stripe = Stripe("pk_test_51RNY7xHBOAE9Lzc4VBNQEjSMMyaBba78o6hnxHD6fczQJNrxLw7sTZtXSlH521VLNIdVYbOrNh93icmQGZdj22yV00o2d3ikfP");
 
 document.querySelector("button").addEventListener("click", async () => {
     const response = await fetch("https://api.yourserver.com/create-checkout-session", { method: "POST" });
